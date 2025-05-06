@@ -47,7 +47,7 @@ fn main() -> ! {
     for _ in 0..2 {
         vi.clear_framebuffer();
 
-        vi.print_string(2, 2, Colour::WHITE, "JoyBus poke/peek tool");
+        vi.print_string(2, 2, Colour::WHITE, "Joybus poke/peek tool");
 
         vi.wait_vsync();
         vi.next_framebuffer();
