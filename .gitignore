@@ -1,0 +1,9 @@
+/.vscode
+/target
+
+*.bin
+*.z64
+
+*.bak
+
+!/fakedragon/**
